@@ -1,11 +1,3 @@
-import { hello_word } from "..";
-
-describe("example", () => {
-  it("should return 'hello word'", () => {
-    expect (hello_word()).toStrictEqual ("hello word");
-  })
-});
-
 import { makeCampaña, getCampañas, vote, makeExtendedCampaña } from '../../assembly';
 import { storage, Context, runtime_api, VMContext, logging } from "near-sdk-as";
 
