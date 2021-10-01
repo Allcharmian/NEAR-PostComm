@@ -1,6 +1,3 @@
-export function hello_word(): string{
-    return "hello word";
-}
 export enum Vote {
     Yes,
     No
